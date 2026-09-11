@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar (
           title: const Text('Lab 1 Demo'),
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.red,
         ),
         body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.flutter_dash, size: 80, color: Colors.deepPurple),
+              Icon(Icons.flutter_dash, size: 80, color: Colors.brown),
               SizedBox(height: 20),
               Text(
                 'Welcome to Flutter!',
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: null,
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.blueAccent,
           child: Icon(Icons.add),
         ),
       )
